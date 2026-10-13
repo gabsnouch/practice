@@ -16,6 +16,7 @@ body {
   font-size: 1em;
   line-height: 1.5em;
   color: #202020;
+  background-color: #f6f8f7;
 }
 h2,
 h3,
@@ -83,10 +84,54 @@ nav {
   max-width: 680px;
 }
 
-.projet {
+#projet {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.projet-info {
+  width: 400px;
+  margin: 30px;
+  background-color: #ffffff;
+  text-align: center;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.projet-info:hover {
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: 0.3s;
+}
+
+.projet-info img {
+  min-width: 400px;
+  height: 266px;
+}
+
+.projet-info p {
+  display: block;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.projet-info span {
+  display: block;
+  font-size: 0.8em;
+  color: #727070;
+}
+
+.picture {
+  width: 400px;
+  height: 266px;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1920px;
 }
 
 #logo {
