@@ -116,6 +116,7 @@ nav {
   object-fit: cover;
   height: 266px;
   width: 100%;
+  display: block;
 }
 
 .projet-info p {
