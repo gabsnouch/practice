@@ -115,10 +115,7 @@ nav {
 .projet-info img {
   object-fit: cover;
   height: 266px;
-}
-
-.picture {
-  overflow: hidden;
+  width: 100%;
 }
 
 .projet-info p {
